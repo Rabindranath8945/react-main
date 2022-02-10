@@ -1,9 +1,35 @@
-.section-covid .covid-news-item .covid-news-inner p.box-title {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-shadow: 10px 5px #74747433;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&family=Tinos:ital@0;1&display=swap");
+.section-covid .covid-news-item .covid-news-inner {
+  background-color: #ff5733;
+  color: #581845;
+}
+
+.section-covid .covid-news-item .covid-news-inner p.box-title sub {
+  font-family: "Dancing Script", cursive;
+}
+
+.section-covid .covid-news-item .covid-news-inner p.box-title span {
+  font-family: "Lobster Two", cursive;
 }
 
 .section-covid .covid-news-item .covid-news-inner p.box-content {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Tinos", serif;
+}
+
+.section-covid .section-greeting {
+  background: linear-gradient(45deg, #ff5733, #581845);
+  color: #fff;
+}
+
+.section-covid .section-greeting p {
+  text-align: center;
+  font-family: "Lobster Two", cursive;
+}
+
+.section-covid .section-greeting p span {
+  color: #581845;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  font-weight: 800;
 }
 /*# sourceMappingURL=style.css.map */

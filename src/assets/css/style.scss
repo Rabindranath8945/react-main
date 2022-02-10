@@ -1,13 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&family=Tinos:ital@0;1&display=swap");
+
+@import "_var.scss";
+@import "_mixin.scss";
+
 .section-covid {
   .covid-news-item {
     .covid-news-inner {
+      @include bgcolorprop(#ff5733, #581845);
       p.box-title {
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        text-shadow: 10px 5px #74747433;
+        sub {
+          @include boxsubheadingfont($RedressedFonts);
+        }
+        span {
+          @include boxsubheadingfont($LobsterFonts);
+        }
       }
       p.box-content {
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-family: $TinosFonts;
+      }
+    }
+  }
+  .section-greeting {
+    background: linear-gradient(45deg, #ff5733, #581845);
+    color: #fff;
+    p {
+      text-align: center;
+      font-family: $LobsterFonts;
+      span {
+        color: #581845;
+        font-family: $RedressedFonts;
+        font-size: 20px;
+        font-weight: 800;
       }
     }
   }

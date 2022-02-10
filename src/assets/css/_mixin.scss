@@ -1,0 +1,9 @@
+// Mixins
+@mixin boxsubheadingfont($fontName) {
+  font-family: $fontName;
+}
+
+@mixin bgcolorprop($bgcolorname, $textcolorname) {
+  background-color: $bgcolorname;
+  color: $textcolorname;
+}
